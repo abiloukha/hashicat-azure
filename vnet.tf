@@ -1,6 +1,6 @@
 module "network" {
   # Change SJENNINGS-training to your organization name !!
-  source  = "app.terraform.io/SJENNINGS-training/network/azurerm" 
+  source  = "app.terraform.io/abilukha-training/network/azurerm" 
   version = "3.0.1"
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   address_space       = "10.0.0.0/16"
